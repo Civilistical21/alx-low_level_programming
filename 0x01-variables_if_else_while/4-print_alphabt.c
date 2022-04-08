@@ -1,24 +1,14 @@
 #include <stdio.h>
-
-
-
 /**
-
-  * main 
-
+  * main - prints the alphabet in lowercase, followed by a new line 
   *
-
   * Return: Always (Success)
-
   */
-
 int main(void)
 
 {
 
 	char c;
-
-
 
 	for (c = 'a'; c <= 'z'; c++)
 
@@ -28,7 +18,7 @@ int main(void)
 
 		{
 
-			putchar(c);
+		  putchar(c);
 
 		}
 
@@ -36,12 +26,10 @@ int main(void)
 
 
 
-	putchar('\n');
+	   putchar('\n');
 
 
 
 	return (0);
-
-
 
 }
