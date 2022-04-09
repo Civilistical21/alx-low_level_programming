@@ -5,18 +5,18 @@
 */
 int main(void)
 {
-int n, m, l;
-for (n = '0'; n <= '9'; n++)
+int c, i, k;
+for (c = '0'; c <= '9'; c++)
 {
-for (m = '0'; m <= '9'; m++)
+for (i = '0'; i <= '9'; i++)
 {
-for (l = '0'; m <= '9'; l++)
+for (k = '0'; k <= '9'; k++)
 {
-if (n < m && m < l)
+if (c < i && i < k)
 {
-putchar(n);
-putchar(m);
-putchar(l);
+putchar(c);
+putchar(i);
+putchar(k);
 if (n != '7')
 {
 putchar(',');
