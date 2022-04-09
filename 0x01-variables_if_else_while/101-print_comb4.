@@ -1,0 +1,31 @@
+#include <stdio.h>
+/**
+* main - print all possible combination of three digits
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+int j,b,c;
+for (j = 48; j < 58; j++)
+{
+for (b = 49; b < 58; b++)
+{
+for (c = 50; c < 58; c++)
+{
+if (c > b && b > j)
+{
+putchar(j);
+putchar(b);
+putchar(c);
+if (j != 55 || b != 56)
+{
+putchar(',');
+putchar(' ');
+}
+}
+}
+}
+}
+putchar('\n');
+return (0)
+}
