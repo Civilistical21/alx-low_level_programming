@@ -1,12 +1,10 @@
 #include "main.h"
 /**
-* reset_to_98 - reset argument to 98
-* @n: pointer
-* Return: void
+ * reset_to_98 - update the value it points
+ * @n: pointer of the direction at the variable n
+ * return: 0 (success)
 */
-
 void reset_to_98(int *n)
 {
-	*n = 98;
+int *n = 98;
 }
-
