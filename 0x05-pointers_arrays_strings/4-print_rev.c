@@ -16,29 +16,27 @@ void print_rev(char *s)
 
 {
 
-	int i, n;
+int i, n;
 
+for (i = 0; s[i] != '\0'; i++)
 
+{
 
-	for (i = 0; s[i] != '\0'; i++)
+continue;
 
-	{
+}
 
-		continue;
+n = i - 1;
 
-	}
+for (i = n; i >= 0 ; i--)
 
-	n = i - 1;
+{
 
-	for (i = n; i >= 0 ; i--)
+putchar(s[i]);
 
-	{
+}
 
-		_putchar(s[i]);
-
-	}
-
-_putchar('\n');
+putchar('\n');
 
 return;
 
