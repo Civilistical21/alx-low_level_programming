@@ -1,19 +1,10 @@
 #include "holberton.h"
-
-
-
 /**
-
  * print_rev - print a string
-
  * @s:pointer char
-
  * return:void
-
  */
-
 void print_rev(char *s)
-
 {
 
 int i, n;
@@ -37,7 +28,6 @@ putchar(s[i]);
 }
 
 putchar('\n');
-
 return;
 
 }
