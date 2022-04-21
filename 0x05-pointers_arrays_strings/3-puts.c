@@ -10,7 +10,7 @@
 
  * return:void
 
- */
+ *i/
 
 void _puts(char *str)
 
@@ -24,11 +24,11 @@ void _puts(char *str)
 
 	{
 
-		_putchar(str[i]);
+		putchar(str[i]);
 
 	}
 
-_putchar('\n');
+putchar('\n');
 
 return;
 
