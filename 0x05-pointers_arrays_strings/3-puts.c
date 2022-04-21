@@ -10,7 +10,7 @@
 
  * return:void
 
- *i/
+ */
 
 void _puts(char *str)
 
