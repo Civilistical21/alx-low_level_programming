@@ -4,6 +4,7 @@
  * @n: integer params
  * Return: 0
  */
+
 void rev_string(char *n)
 {
 int i = 0;
@@ -21,7 +22,6 @@ temp = *(n + j);
 *(n + i) = temp;
 }
 }
-
 /**
  * infinite_add - add 2 numbers together
  * @n1: text representation of 1st number to add
