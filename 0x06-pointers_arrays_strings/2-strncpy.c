@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strncpy - copy the string
+ * _strncpy - copie the string
  * @dest: array that returns
  * @src: the pointer that receive the string
- * @a: times to interate
+ * @n: times to interate
  * Return: the parameter dest.
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -27,8 +27,6 @@ i++;
 i = i;
 
 while (i < n)
-
-{
 
 dest[i] = '\0';
 
