@@ -16,27 +16,27 @@ return  (1)
 }
 amount = atoi(argv[1]);
 coins = 0;
-if (amount > 30)
+if (amount > 25)
 {
-while (amount  >=  30)
-amount -= 30, coins++;
+while (amount  >=  25)
+amount -= 25, coins++;
 }
-if  (amount > 15  && amount < 30)
-{
-while  (amount >= 15)
-amount -=  15, coins++;
-}
-if  (amount  > 10 && amount < 15)
+if  (amount > 10  && amount < 25)
 {
 while  (amount >= 10)
-amount -= 10, coins++;
+amount -=  10, coins++;
 }
-if (amount > 2 && amount < 10)
+if  (amount  > 5 && amount < 10)
+{
+while  (amount >= 5)
+amount -= 5, coins++;
+}
+if (amount > 2 && amount < 5)
 {
 while (amount >= 2)
 amount -= 2, coins++;
 }
-if (amount == 1 ||  amount == 2 || amount == 10 || amount == 15 || amount == 30)
+if (amount == 1 ||  amount == 2 || amount == 5 || amount == 10 || amount == 25)
 {
 coins++;
 }
