@@ -6,7 +6,6 @@
  *
  * Return: sum of all data, or 0 if the list is empty
  */
-
 int sum_dlistint(dlistint_t *head)
 {
 	int sum = 0;
